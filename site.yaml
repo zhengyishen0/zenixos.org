@@ -1,10 +1,8 @@
-
 meta:
-  title_template: %s / Form & Function
-  description: Designer and UX developer
-
-  # default author for blog entries
-  author: Emma Bennet
+  title_template: "%s | Zenix"
+  description: OS for Intelligence
+  author: Zenix Team
+  favicon: /favicon.png
 
 site:
   origin: https://www.zenixos.org
@@ -14,7 +12,7 @@ sitemap:
   enabled: true
 
 rss:
-  title: UX developer blog
+  title: Zenix Blog
   collection: blog
   enabled: true
 
@@ -27,22 +25,5 @@ collections:
     skip: [ skip ]
     sort: date desc
 
-  design:
-    include: [ docs/ ]
-    tags: [ design ]
-    sort: order
-
-  dev:
-    include: [ docs/ ]
-    tags: [ dev ]
-    sort: order
-
-
-# custom imports
-import_map:
-  crud: /@shared/lib/crud.js
-  admin: /admin/admin.js
-
 server:
   reload: true
-

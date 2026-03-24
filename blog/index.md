@@ -4,7 +4,7 @@ pagehead: false
 skip: true
 ---
 
-# Blog
+# Essays
 
 [blog-entries]
 

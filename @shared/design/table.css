@@ -1,4 +1,3 @@
-
 @layer base {
 
   table {
@@ -9,24 +8,46 @@
       vertical-align: baseline;
     }
 
-    th, td {
-      border-bottom: 1px solid var(--base-200);
-      padding: .5em 0;
+    th {
+      color: var(--text-primary);
+      font-weight: 500;
       text-align: left;
+      padding: .75em 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    td {
+      border-bottom: 1px solid var(--border-subtle);
+      padding: .75em 0;
+      text-align: left;
+      color: var(--text-secondary);
 
       /* gap */
       &:not(:first-child) { padding-left: 2em }
     }
 
+    th:not(:first-child) {
+      padding-left: 2em;
+    }
+
     td:first-child {
       white-space: nowrap;
       width: 25%;
+      color: var(--text-muted);
     }
 
     tfoot td {
-      color: var(--base-800);
+      color: var(--text-primary);
       font-weight: 500;
       border: 0;
+    }
+
+    tbody tr {
+      transition: background 0.2s;
+      
+      &:hover {
+        background: var(--bg-subtle);
+      }
     }
   }
 }

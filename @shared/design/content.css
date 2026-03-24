@@ -1,4 +1,3 @@
-
 /* Content elements (headings, paragraphs, lists, images, blockquotes, ...) */
 
 @layer base {
@@ -7,9 +6,9 @@
   }
 
   body {
-    line-height: 1.5;
-    color: var(--base-800);
-    font-family: system-ui;
+    line-height: 1.6;
+    color: var(--text-primary);
+    font-family: var(--font-sans);
   }
 
   img {
@@ -20,7 +19,7 @@
   h1, h2, h3, h4 {
     margin-block: 0.5em;
     text-wrap: balance;
-    line-height: 1.25;
+    line-height: 1.3;
     + p { margin-top: 0 }
   }
 
@@ -30,56 +29,65 @@
 
   a {
     color: var(--link);
-    &:visited { color: var(--visited); }
+    transition: color 0.2s;
+    &:hover { color: var(--link-hover); }
     &[name] { color: inherit }
-    &:target { background-color: #fff3cd }
   }
 
-  strong { color: var(--base-800) }
-
+  strong { color: var(--text-primary); font-weight: 600; }
 
   p, li, td {
-    color: var(--base-600);
+    color: var(--text-secondary);
     text-wrap: pretty;
 
     code {
-      background-color: var(--base-200);
-      font-family: courier, monospace;
-      padding: .125em .25em;
+      background-color: var(--bg-subtle);
+      border: 1px solid var(--border-subtle);
+      font-family: ui-monospace, "SF Mono", monospace;
+      border-radius: 4px;
+      padding: .15em .35em;
       font-size: .875em;
     }
   }
 
-  ol, ul { padding-left: 1em }
+  ol, ul { padding-left: 1.25em }
 
-  li { padding-left: .5em }
+  li { 
+    padding-left: .5em;
+    margin-bottom: 0.5em;
+  }
 
   hr {
-    border: 1px solid var(--base-200);
+    border: none;
+    border-top: 1px solid var(--border-subtle);
     margin-block: var(--l);
-    border-width: 1px 0 0;
   }
 
   blockquote {
-    font-weight: bold;
+    border-left: 2px solid var(--border);
+    padding-left: var(--m);
     margin: var(--l) 0;
+    color: var(--text-muted);
+    font-style: italic;
   }
 
   small, figcaption {
     font-weight: 400;
     font-size: .875em;
-    color: var(--base-600);
+    color: var(--text-muted);
   }
 
   dl {
     display: grid;
-    grid-template-columns:25% 1fr;
+    grid-template-columns: 25% 1fr;
     > * { margin: .25em 0 }
-    dt { font-weight: 500 }
+    dt { font-weight: 500; color: var(--text-primary); }
+    dd { color: var(--text-secondary); }
     p:first-child { margin-top: 0 }
   }
 
   time {
-    white-space: nowrap
+    white-space: nowrap;
+    color: var(--text-muted);
   }
 }

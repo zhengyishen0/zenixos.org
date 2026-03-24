@@ -1,9 +1,10 @@
-
 @layer component {
 
   /* placeholder images */
   figure {
-    background-color: var(--base-200);
+    background-color: var(--bg-subtle);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
     margin: var(--m) 0;
 
     > div {
@@ -12,14 +13,19 @@
 
     @media (width > 900px) {
       &.hero {
-        margin: 3em -15vw;
+        margin: 3em -10vw;
       }
     }
-
-    /* bauhaus coloring */
-    &.yellow  { background-color: var(--yellow) }
-    &.blue    { background-color: var(--blue) }
-    &.red     { background-color: var(--red) }
   }
 
+  /* SVG diagrams - full width, no border */
+  figure:has(img[src$=".svg"]) {
+    background: transparent;
+    border: none;
+  }
+
+  img[src$=".svg"] {
+    width: 100%;
+    border-radius: 12px;
+  }
 }

@@ -1,0 +1,74 @@
+<!doctype html lib>
+
+<div :is="font-preview" class="font-preview">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&family=Sora:wght@400;500;600&family=Instrument+Sans:wght@400;500;600&family=Manrope:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Maru+Gothic:wght@400;500;700&family=M+PLUS+1:wght@400;500;600&family=Murecho:wght@400;500;600&family=Outfit:wght@400;500;600&family=Lexend:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Public+Sans:wght@400;500;600&family=DM+Sans:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/geist@1.2.0/dist/fonts/geist-sans/style.min.css">
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,600&display=swap">
+  
+  <select onchange="document.body.style.fontFamily = this.value; document.body.style.letterSpacing = '0.5px'">
+    <optgroup label="Current">
+      <option value="-apple-system, system-ui, sans-serif">System (default)</option>
+    </optgroup>
+    <optgroup label="Japanese Zen">
+      <option value="'Zen Kaku Gothic New', sans-serif">Zen Kaku Gothic</option>
+      <option value="'Zen Maru Gothic', sans-serif">Zen Maru Gothic</option>
+      <option value="'M PLUS 1', sans-serif">M PLUS 1</option>
+      <option value="'Murecho', sans-serif">Murecho</option>
+    </optgroup>
+    <optgroup label="Geometric Calm">
+      <option value="'Sora', sans-serif">Sora ★</option>
+      <option value="'Space Grotesk', sans-serif">Space Grotesk ★</option>
+      <option value="'Satoshi', sans-serif">Satoshi</option>
+      <option value="'Outfit', sans-serif">Outfit</option>
+      <option value="'Lexend', sans-serif">Lexend</option>
+      <option value="'Plus Jakarta Sans', sans-serif">Plus Jakarta Sans</option>
+    </optgroup>
+    <optgroup label="Understated">
+      <option value="'Geist Sans', sans-serif">Geist</option>
+      <option value="'Inter', sans-serif">Inter</option>
+      <option value="'IBM Plex Sans', sans-serif">IBM Plex Sans</option>
+      <option value="'Public Sans', sans-serif">Public Sans</option>
+      <option value="'DM Sans', sans-serif">DM Sans</option>
+      <option value="'Instrument Sans', sans-serif">Instrument Sans</option>
+      <option value="'Manrope', sans-serif">Manrope</option>
+    </optgroup>
+  </select>
+  
+  <label>Space</label>
+  <input type="range" min="0" max="4" value="0.5" step="0.25" oninput="document.body.style.letterSpacing = this.value + 'px'">
+</div>
+
+<style>
+  .font-preview {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    background: #222;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .font-preview select {
+    background: #111;
+    color: #fff;
+    border: 1px solid #555;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .font-preview label {
+    color: #888;
+    font-size: 12px;
+  }
+  
+  .font-preview input[type="range"] {
+    width: 80px;
+  }
+</style>

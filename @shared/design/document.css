@@ -1,4 +1,3 @@
-
 /* For content heavy documents only (excluded from single-page-apps) */
 
 @layer base {
@@ -9,15 +8,16 @@
     gap: var(--xl); /* section gaps */
   }
 
-  h1, h2, h3, p, li {
-    max-width: var(--max-line-width)
-  }
-
   h1 {
     font-size: 2.25em;
+    color: var(--text-primary);
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    
     & + p, & + time + p {
       font-size: 1.125em;
       text-wrap: balance;
+      color: var(--text-secondary);
     }
   }
 
@@ -28,37 +28,68 @@
 
 @layer component {
 
-  /* place things in a row  */
-  .blocks {
-    align-items: center;
-    flex-direction: row;
-    display: flex;
-    gap: var(--m);
-  }
-
-  /* columns  */
-  @media (width > 900px) {
-    .columns {
-      column-count: var(--column-count, 2);
-      margin-block: var(--l);
-      column-gap: var(--xl);
-      div { break-inside: avoid }
-
-      > :first-child {
-        &, h2, h3 {
-          margin-top: 0
-        }
+  /* Hero section */
+  .hero {
+    text-align: center;
+    padding: var(--xl) 0;
+    margin-bottom: var(--l);
+    
+    /* Handle Nue's div wrapping */
+    > div {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: var(--l);
+      
+      &:last-child {
+        margin-bottom: 0;
       }
+    }
+    
+    img {
+      max-width: 550px;
+      width: 100%;
+      height: auto;
+      animation: ink-reveal 1.2s ease-out forwards;
+    }
+    
+    p:has(img) {
+      margin: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: var(--text-secondary);
+      margin: 0 auto var(--m);
+      max-width: 600px;
+    }
+    
+    p {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 550px;
+      margin: 0 auto;
     }
   }
 
-  /* note  */
-  .note {
-    background-color: var(--base-200);
-    max-width: var(--max-line-width);
-    margin-block: var(--m);
-    padding: 1em;
-    p { margin: 0 }
-  }
+}
 
+@keyframes ink-reveal {
+  0% {
+    opacity: 0;
+    filter: blur(12px);
+  }
+  50% {
+    opacity: 0.8;
+    filter: blur(4px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
 }

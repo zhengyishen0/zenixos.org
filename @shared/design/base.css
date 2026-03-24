@@ -1,30 +1,141 @@
-
 @layer base, component, modifier;
 
 @layer base {
 
   :root {
+    /* Zenix dark palette */
+    --bg: #0a0a0a;
+    --bg-elevated: #111;
+    --bg-subtle: #161616;
+    
+    /* Text hierarchy */
+    --text-primary: #eee;
+    --text-secondary: #999;
+    --text-muted: #666;
+    --text-faint: #444;
+    
+    /* Borders & lines */
+    --border: #333;
+    --border-subtle: #222;
+    --border-strong: #555;
+    
+    /* Accents */
+    --accent: #fff;
+    --accent-muted: #888;
 
-    /* base colors */
-    --base-200: #E2E8F0;
-    --base-400: #94A3B8;
-    --base-600: #475569;
-    --base-800: #1E293B;
+    /* Links */
+    --link: #ccc;
+    --link-hover: #fff;
 
-    --yellow: #F6C950;
-    --blue: #2A63B3;
-    --red: #CB3B32;
-
-    /* link colors */
-    --link: #00e;
-    --visited: #551a8b;
-
-    /* typographic grid */
+    /* Typographic grid */
     --m: 1.5rem;
     --l: 3rem;
     --xl: 4.5rem;
     --max-line-width: 45rem;
+    
+    /* Font */
+    --font-sans: "Space Grotesk", -apple-system, "system-ui", sans-serif;
+  }
+
+  /* Global dark background */
+  html {
+    background: var(--bg);
+    color: var(--text-primary);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    background: var(--bg);
+  }
+
+  /* Typography */
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--text-primary);
+    font-weight: 500;
+  }
+
+  h1 { font-size: 2rem; margin-bottom: var(--m); }
+  h2 { font-size: 1.5rem; margin-top: var(--l); color: var(--text-secondary); }
+  h3 { font-size: 1.17rem; color: var(--text-secondary); }
+
+  p {
+    color: var(--text-secondary);
+    margin-bottom: var(--m);
+  }
+
+  a {
+    color: var(--link);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  a:hover {
+    color: var(--link-hover);
+  }
+
+  strong, b {
+    color: var(--text-primary);
+    font-weight: 600;
+  }
+
+  em, i {
+    color: var(--text-secondary);
+  }
+
+  code {
+    background: var(--bg-subtle);
+    padding: 0.15em 0.4em;
+    border-radius: 4px;
+    font-size: 0.9em;
+    color: var(--text-primary);
+  }
+
+  pre {
+    background: var(--bg-subtle);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    padding: var(--m);
+    overflow-x: auto;
+  }
+
+  pre code {
+    background: none;
+    padding: 0;
+  }
+
+  blockquote {
+    border-left: 2px solid var(--border);
+    padding-left: var(--m);
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--border-subtle);
+    margin: var(--l) 0;
+  }
+
+  /* Lists */
+  ul, ol {
+    color: var(--text-secondary);
+    padding-left: 1.5em;
+  }
+
+  li {
+    margin-bottom: 0.5em;
+  }
+
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  /* Selection */
+  ::selection {
+    background: rgba(255, 255, 255, 0.15);
   }
 }
-
-
