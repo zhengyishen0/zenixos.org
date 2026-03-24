@@ -28,9 +28,17 @@ jobs:
         run: bun install -g nuekit
 
       - name: Build site
+        run: nue build
+
+      - name: Fix paths for GitHub Pages subdirectory
         run: |
-          nue build
-          cp CNAME .dist/ 2>/dev/null || true
+          cd .dist
+          # Fix absolute paths in HTML files to include /zenixos.org prefix
+          find . -name "*.html" -exec sed -i 's|href="/|href="/zenixos.org/|g' {} \;
+          find . -name "*.html" -exec sed -i 's|src="/|src="/zenixos.org/|g' {} \;
+          # Fix import maps and other JSON-like paths
+          find . -name "*.html" -exec sed -i 's|":"/@|":"/zenixos.org/@|g' {} \;
+          find . -name "*.html" -exec sed -i 's|":"/admin|":"/zenixos.org/admin|g' {} \;
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
