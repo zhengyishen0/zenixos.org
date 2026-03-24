@@ -26,8 +26,11 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install nuekit
+        run: npm install -g nuekit
+
       - name: Build site
-        run: npx nue build --production
+        run: nue build --production
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
