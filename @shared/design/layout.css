@@ -107,13 +107,6 @@
     padding: var(--xl) 0;
   }
 
-  .hero img {
-    max-width: 1350px;
-    width: 100%;
-    margin: 0 auto var(--l);
-    display: block;
-  }
-
   .hero h1 {
     font-size: 1.5rem;
     font-weight: 400;
