@@ -14,6 +14,10 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
+env:
+  # Set to empty string "" when using custom domain, or "/zenixos.org" for GitHub Pages subdirectory
+  BASE_PATH: ""
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -31,14 +35,13 @@ jobs:
         run: nue build
 
       - name: Fix paths for GitHub Pages subdirectory
+        if: env.BASE_PATH != ''
         run: |
           cd .dist
-          # Fix absolute paths in HTML files to include /zenixos.org prefix
-          find . -name "*.html" -exec sed -i 's|href="/|href="/zenixos.org/|g' {} \;
-          find . -name "*.html" -exec sed -i 's|src="/|src="/zenixos.org/|g' {} \;
-          # Fix import maps and other JSON-like paths
-          find . -name "*.html" -exec sed -i 's|":"/@|":"/zenixos.org/@|g' {} \;
-          find . -name "*.html" -exec sed -i 's|":"/admin|":"/zenixos.org/admin|g' {} \;
+          find . -name "*.html" -exec sed -i 's|href="/|href="${{ env.BASE_PATH }}/|g' {} \;
+          find . -name "*.html" -exec sed -i 's|src="/|src="${{ env.BASE_PATH }}/|g' {} \;
+          find . -name "*.html" -exec sed -i 's|":"/@|":"${{ env.BASE_PATH }}/@|g' {} \;
+          find . -name "*.html" -exec sed -i 's|":"/admin|":"${{ env.BASE_PATH }}/admin|g' {} \;
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
