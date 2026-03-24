@@ -28,7 +28,9 @@ jobs:
         run: bun install -g nuekit
 
       - name: Build site
-        run: nue build
+        run: |
+          nue build
+          cp CNAME .dist/ 2>/dev/null || true
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
