@@ -1,4 +1,11 @@
 {
-  "description": "Full nue template with raw/brutalist design system",
-  "type": "module"
+  "name": "zenixos-org",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "nue build",
+    "dev": "nue"
+  },
+  "devDependencies": {
+    "nuekit": "^2.0.0-beta.2"
+  }
 }
