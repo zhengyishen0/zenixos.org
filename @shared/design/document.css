@@ -147,7 +147,7 @@
   }
 
   100% {
-    opacity: 0.05;
+    opacity: 0.07;
   }
 }
 
@@ -156,19 +156,19 @@
   article {
     padding-inline: 1rem;
   }
-  
+
   .hero {
     padding: var(--l) 0;
   }
-  
+
   .hero h1 {
     font-size: 1.25rem;
   }
-  
+
   .hero p {
     font-size: 0.9rem;
   }
-  
+
   .hero-logo {
     max-width: 85%;
   }
