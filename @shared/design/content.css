@@ -72,6 +72,13 @@
       font-size: 0.875rem;
     }
   }
+  
+  /* Mobile: left-align text */
+  @media (max-width: 600px) {
+    p, li, td {
+      text-align: left;
+    }
+  }
 
   ol,
   ul {

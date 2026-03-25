@@ -59,6 +59,23 @@
   h1 { font-size: 2rem; margin-bottom: var(--m); }
   h2 { font-size: 1.5rem; margin-top: var(--l); color: var(--text-secondary); }
   h3 { font-size: 1.125rem; font-weight: 600; color: var(--text-secondary); }
+  
+  /* Mobile typography & spacing */
+  @media (max-width: 600px) {
+    :root {
+      --m: 1rem;
+      --l: 1.5rem;
+      --xl: 2rem;
+    }
+    
+    body {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.25rem; }
+    h3 { font-size: 1rem; }
+  }
 
   p {
     color: var(--text-secondary);

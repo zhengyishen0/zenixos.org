@@ -150,3 +150,26 @@
     opacity: 0.05;
   }
 }
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+  article {
+    padding-inline: 1rem;
+  }
+  
+  .hero {
+    padding: var(--l) 0;
+  }
+  
+  .hero h1 {
+    font-size: 1.25rem;
+  }
+  
+  .hero p {
+    font-size: 0.9rem;
+  }
+  
+  .hero-logo {
+    max-width: 85%;
+  }
+}

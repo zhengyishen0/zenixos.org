@@ -15,8 +15,9 @@
     <span>← Previous</span>
     <strong>{ prevPost.title }</strong>
   </a>
-  <a :if="!prevPost" href="/blog/" class="prev">
-    <span>←</span>
+  <a :if="!prevPost" href="/blog/" class="prev all">
+    <span class="desktop">←</span>
+    <span class="mobile">← Essays</span>
     <strong>All Essays</strong>
   </a>
   <a :if="nextPost" href="{ nextPost.url }" class="next">

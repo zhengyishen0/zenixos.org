@@ -45,6 +45,28 @@
     text-align: right;
     margin-left: auto;
   }
+  
+  /* Hide mobile-only elements on desktop */
+  .page-nav .mobile {
+    display: none;
+  }
+  
+  /* Mobile: hide titles, keep side-by-side */
+  @media (max-width: 600px) {
+    .page-nav strong,
+    .page-nav .desktop {
+      display: none;
+    }
+    
+    .page-nav .mobile {
+      display: inline;
+    }
+    
+    .page-nav a {
+      flex-direction: row;
+      padding: 0.75em 1em;
+    }
+  }
 
   /* Blog entries list */
   .blog-entries {
