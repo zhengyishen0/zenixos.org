@@ -1,7 +1,10 @@
 /* Content elements (headings, paragraphs, lists, images, blockquotes, ...) */
 
 @layer base {
-  *, *:before, *:after {
+
+  *,
+  *:before,
+  *:after {
     box-sizing: border-box;
   }
 
@@ -16,28 +19,48 @@
     height: auto;
   }
 
-  h1, h2, h3, h4 {
+  h1,
+  h2,
+  h3,
+  h4 {
     margin-block: 0.5em;
     text-wrap: balance;
     line-height: 1.3;
-    + p { margin-top: 0 }
+
+    +p {
+      margin-top: 0
+    }
   }
 
-  ol, ul, table {
+  ol,
+  ul,
+  table {
     margin-block: var(--m)
   }
 
   a {
     color: var(--link);
     transition: color 0.2s;
-    &:hover { color: var(--link-hover); }
-    &[name] { color: inherit }
+
+    &:hover {
+      color: var(--link-hover);
+    }
+
+    &[name] {
+      color: inherit
+    }
   }
 
-  strong { color: var(--text-primary); font-weight: 600; }
+  strong {
+    color: var(--text-primary);
+    font-weight: 600;
+  }
 
-  p, li, td {
+  p,
+  li,
+  td {
     color: var(--text-secondary);
+    text-align: justify;
     text-wrap: pretty;
 
     code {
@@ -50,9 +73,12 @@
     }
   }
 
-  ol, ul { padding-left: 1.25em }
+  ol,
+  ul {
+    padding-left: 1.25em
+  }
 
-  li { 
+  li {
     padding-left: .5em;
     margin-bottom: 0.5em;
   }
@@ -71,7 +97,8 @@
     font-style: italic;
   }
 
-  small, figcaption {
+  small,
+  figcaption {
     font-weight: 400;
     font-size: .875em;
     color: var(--text-muted);
@@ -80,10 +107,23 @@
   dl {
     display: grid;
     grid-template-columns: 25% 1fr;
-    > * { margin: .25em 0 }
-    dt { font-weight: 500; color: var(--text-primary); }
-    dd { color: var(--text-secondary); }
-    p:first-child { margin-top: 0 }
+
+    >* {
+      margin: .25em 0
+    }
+
+    dt {
+      font-weight: 500;
+      color: var(--text-primary);
+    }
+
+    dd {
+      color: var(--text-secondary);
+    }
+
+    p:first-child {
+      margin-top: 0
+    }
   }
 
   time {
