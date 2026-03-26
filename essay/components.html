@@ -5,7 +5,7 @@
 
 <pagefoot class="page-nav">
   <script>
-    const posts = this.blog || []
+    const posts = this.essay || []
     const current = this.url
     const idx = posts.findIndex(p => p.url === current)
     this.prevPost = idx > 0 ? posts[idx - 1] : null
@@ -15,10 +15,8 @@
     <span>← Previous</span>
     <strong>{ prevPost.title }</strong>
   </a>
-  <a :if="!prevPost" href="/blog/" class="prev all">
-    <span class="desktop">←</span>
-    <span class="mobile">← Essays</span>
-    <strong>All Essays</strong>
+  <a :if="!prevPost" href="/essay/" class="prev all">
+    <span>← Essays</span>
   </a>
   <a :if="nextPost" href="{ nextPost.url }" class="next">
     <span>Next →</span>

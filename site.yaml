@@ -7,21 +7,22 @@ meta:
 site:
   origin: https://www.zenixos.org
   view_transitions: true
+  skip: [ archive, draft ]
 
 sitemap:
   enabled: true
 
 rss:
-  title: Zenix Blog
-  collection: blog
+  title: Zenix Essays
+  collection: essay
   enabled: true
 
 content:
   sections: true
 
 collections:
-  blog:
-    include: [ blog/ ]
+  essay:
+    include: [ essay/ ]
     skip: [ skip ]
     sort: date desc
     navigation: true

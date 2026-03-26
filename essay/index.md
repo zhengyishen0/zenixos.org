@@ -1,10 +1,11 @@
 
 ---
 pagehead: false
+pagefoot: false
 skip: true
 ---
 
 # Essays
 
-[blog-entries]
+[essay-entries]
 

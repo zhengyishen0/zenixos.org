@@ -20,4 +20,4 @@ Just as Linux provides the environment for human-driven computing, Zenix provide
 
 ## Essays
 
-[blog-entries]
+[essay-entries]

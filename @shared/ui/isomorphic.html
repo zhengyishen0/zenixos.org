@@ -17,9 +17,9 @@
   </script>
 </time>
 
-<!-- Blog entries list component -->
-<div :is="blog-entries" class="blog-entries">
-  <a :each="page in blog" href="{ page.url }" class="blog-entry">
+<!-- Essay entries list component -->
+<div :is="essay-entries" class="essay-entries">
+  <a :each="page in essay" href="{ page.url }" class="essay-entry">
     <time><pretty-date :date="page.date"/></time>
     <div>
       <strong>{ page.title }</strong>

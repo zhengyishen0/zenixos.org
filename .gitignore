@@ -1,2 +1,5 @@
 .dist
 .nue
+.DS_Store
+**/.DS_Store
+*.DS_Store
