@@ -1,18 +1,15 @@
 ---
 date: 2026-03-24
+subtitle: The value is in divergence, not convergence
+description: The AI industry is running a race on a single track.
 ---
 
 # Intelligence Isn't One Axis
-
-## The Wrong Race
+*The value is in divergence, not convergence*
 
 The AI industry is running a race on a single track.
 
 Benchmarks. Pricing. Speed. Context window size. Every comparison focuses on which model is "better" — as if intelligence were a single axis and the only question is who's furthest along it.
-
-In business strategy, there's a well-understood distinction between competing on *better* and competing on *unique*. Competing on better means accepting someone else's metrics and trying to outperform on them. You run faster on a track someone else built. Competing on unique means creating value that can't be ranked on those metrics at all — value that comes from being different, not from being more.
-
-The AI industry is almost entirely running the "better" race. Higher scores. Lower costs. Faster inference. The assumption is that models are interchangeable commodities and the only rational choice is optimizing on performance and price.
 
 This misses the most valuable property of having multiple models in the world: they don't think the same way.
 

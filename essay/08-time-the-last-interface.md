@@ -1,16 +1,11 @@
 ---
 date: 2026-03-24
+subtitle: Where AI meets the human world
+description: An LLM doesn't know how long it takes to generate a response. It doesn't experience the gap between sending a message and receiving a reply. It doesn't feel the difference between a task that takes one second and one that takes one hour. Duration is not part of its reality.
 ---
 
 # Time — The Last Interface
-
-## The Gap
-
-The previous posts described design principles for AI's inner world — statelessness, memory, composable capabilities. Each principle operates within the boundary of a session.
-
-Time breaks that boundary. It's the dimension where AI's world meets the human world. And no design principle can absorb it.
-
-## AI Lives Outside of Time
+*Where AI meets the human world*
 
 An LLM doesn't know how long it takes to generate a response. It doesn't experience the gap between sending a message and receiving a reply. It doesn't feel the difference between a task that takes one second and one that takes one hour. Duration is not part of its reality.
 

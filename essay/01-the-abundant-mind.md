@@ -1,10 +1,11 @@
 ---
 date: 2026-03-24
+subtitle: Structure is the new scarcity
+description: For most of computing history, intelligence was the expensive thing.
 ---
 
 # The Abundant Mind
-
-## Opening
+*Structure is the new scarcity*
 
 For most of computing history, intelligence was the expensive thing.
 
@@ -47,6 +48,8 @@ It leads to an operating system.
 ## The Architecture
 
 Just as a traditional computing stack has a processor, a kernel, an operating system, and applications — each layer depending on the one below it — an AI computing stack has the same dependency structure.
+
+![Traditional vs Agentic computing stacks](01-diagram.svg)
 
 The **LLM is the processor**. Raw intelligence that computes, but produces nothing useful on its own. Like a CPU, it's powerful and inert without the layers above it directing its capability.
 

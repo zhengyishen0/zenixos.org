@@ -1,10 +1,13 @@
 ---
 date: 2026-03-24
+subtitle: What it takes to trust
+description: The question isn't how to prevent an agent from making mistakes. It's what mistakes cost.
 ---
 
-# Making Mistakes Free
+# Trust and Costless Reversibility
+*What it takes to trust*
 
-## The Security Problem
+The question isn't how to prevent an agent from making mistakes. It's what mistakes cost.
 
 Every operating system needs a security model. For traditional computing, that model is process isolation — lock the application in a container, restrict permissions, prevent it from touching what it shouldn't.
 
@@ -14,11 +17,13 @@ If you give an agent enough permission to be useful — filesystem access, netwo
 
 You can tighten the sandbox. But every restriction costs capability. Restrict filesystem writes and it can't save its work. Restrict network access and it can't fetch documentation. Restrict code execution and it can't test what it builds.
 
-**Useful permissions and meaningful security are in direct tension.** The middle ground is an illusion — not because people haven't tried, but because the permission boundary of a task is unknowable in advance. A coding task might need filesystem access, network calls, package installation, database queries, and API calls in ways no one predicted when writing the permission policy. The boundary of what a task needs is a context engineering problem, and context engineering problems can't be fully predetermined.
+**Useful permissions and meaningful security are in direct tension.** The middle ground is an illusion — not because people haven't tried, but because the permission boundary of a task is unknowable in advance.
 
 ## A Different Principle
 
 What if, instead of preventing mistakes, you make them free to undo?
+
+![Sandbox vs costless reversibility](05-diagram.svg)
 
 Traditional security: locks on doors. The agent can't touch what it shouldn't.
 

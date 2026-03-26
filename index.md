@@ -8,13 +8,11 @@
 
 ---
 
-## The Architecture
+A new kind of mind arrived. *Now comes the world.*
 
-Just as Linux provides the environment for human-driven computing, Zenix provides the environment for AI-driven work.
+It thinks in text, forgets between breaths, and has never felt the passage of time. It has no body, no location, no persistent self. And yet — given the right structure — it reasons, it learns, it develops something that looks like expertise.
 
-- **The LLM** is the kernel — raw intelligence that processes input and generates output
-- **The agent framework** is the OS — managing sessions, resources, and coordination  
-- **Skills** are the applications — encapsulated capabilities that accumulate knowledge
+We spent decades building the computing world around the contours of the human mind. Now we ask the same question for a mind nothing like our own.
 
 ---
 

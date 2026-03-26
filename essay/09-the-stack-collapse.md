@@ -1,16 +1,11 @@
 ---
 date: 2026-03-24
+subtitle: Every translation is overhead
+description: Think about what a typical web application actually does. It stores data in a database (SQL). Runs business logic on a server (Python/JavaScript). Renders a UI in a browser (HTML/CSS). Three layers, three formats, three translation boundaries.
 ---
 
 # The Stack Collapse
-
-## Too Many Layers
-
-The traditional application stack has too many layers. Database. ORM. Backend. API. Frontend framework. Build pipeline. Deployment. Each layer exists to translate between formats that shouldn't have been separate in the first place.
-
-For a text-native intelligence, this separation is pure overhead.
-
-## Why the Stack Exists
+*Every translation is overhead*
 
 Think about what a typical web application actually does. It stores data in a database (SQL). Runs business logic on a server (Python/JavaScript). Renders a UI in a browser (HTML/CSS). Three layers, three formats, three translation boundaries.
 
@@ -23,6 +18,8 @@ For AI, none of these separations are necessary. AI reads and writes one format:
 ## Text as Full Stack
 
 What if a single text file could be data, logic, and interface simultaneously?
+
+![Traditional stack vs text as full stack](09-diagram.svg)
 
 Structured text files store content — text, metadata, tags, relationships. Human-readable and AI-readable at the same time. No ORM, no schema migrations, no binary formats.
 

@@ -1,10 +1,11 @@
 ---
 date: 2026-03-24
+subtitle: The whole is alive
+description: Each component described in this series is simple. Each follows the same conventions. Living software that evolves through use. Trust through costless reversibility. Search over structure. Stateless interfaces over stateful internals. Time as a tool. Text as full stack. Capability without boundary. Diverse minds on shared infrastructure.
 ---
 
 # One for All, All for One
-
-## The Parts
+*The whole is alive*
 
 Each component described in this series is simple. Each follows the same conventions. Living software that evolves through use. Trust through costless reversibility. Search over structure. Stateless interfaces over stateful internals. Time as a tool. Text as full stack. Capability without boundary. Diverse minds on shared infrastructure.
 
@@ -31,6 +32,8 @@ This is multiplication. Not one capability doing one thing. The combinatorial sp
 ## The Holographic Property
 
 There's a deeper pattern. Each principle doesn't just apply to its own domain — it runs through the entire system.
+
+![Principles running through components](12-diagram.svg)
 
 Statelessness isn't just a browser design pattern. It runs through memory (stateless search queries), through agent sessions (stateless launches), through distributed resolution (stateless capability lookup). Every interaction in the system is self-contained.
 

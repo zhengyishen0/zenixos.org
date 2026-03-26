@@ -1,12 +1,13 @@
 ---
 date: 2026-03-24
+subtitle: A system that develops through use
+description: Before LLMs, only one thing in the world had all four of these properties simultaneously.
 ---
 
 # Living Software
+*A system that develops through use*
 
-## The Four Properties
-
-Before LLMs, only one thing in the world had all four of these properties simultaneously:
+Before LLMs, only one thing in the world had all four of these properties simultaneously.
 
 A **tool** that executes actions. A **manual** that teaches when and how to use it. **Accumulated experience** from actual use in the field. And the **ability to refine itself** based on what's learned.
 
@@ -43,6 +44,8 @@ When the next agent loads the capability, it reads both. The new hire gets the o
 ## Three Layers of Evolution
 
 Over time, living software evolves through three layers:
+
+![Capability evolution through use](04-diagram.svg)
 
 **Layer 1: Knowledge accumulation.** The field notes grow with each use. Edge cases documented. Workarounds noted. Patterns emerging. Raw experience, unstructured and append-only.
 

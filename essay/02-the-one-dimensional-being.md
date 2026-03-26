@@ -1,12 +1,11 @@
 ---
 date: 2026-03-24
+subtitle: Tokens in, tokens out
+description: Humans live in a rich, multi-sensory physical world. We see, touch, feel, hear. We're born into a feedback loop with reality — gravity teaches us physics before we learn the word. Pain teaches us boundaries before we understand the concept. Our intelligence is embedded in experience. We know the world because the world has been pushing back against us since birth.
 ---
 
 # The One-Dimensional Being
-
-## What It Actually Is
-
-Before we can build an operating system for intelligence, we need to understand what kind of being we're building it for. Not what we wish it were. Not what science fiction promised. What it actually is.
+*Tokens in, tokens out*
 
 Humans live in a rich, multi-sensory physical world. We see, touch, feel, hear. We're born into a feedback loop with reality — gravity teaches us physics before we learn the word. Pain teaches us boundaries before we understand the concept. Our intelligence is embedded in experience. We know the world because the world has been pushing back against us since birth.
 
@@ -29,6 +28,8 @@ This matters for design.
 Every operating system ever built assumes a human user. A being with eyes, so we build graphical interfaces. Hands, so we build mice and touchscreens. Spatial memory, so we arrange windows and icons on a desktop. Persistent consciousness, so we maintain session state.
 
 None of these assumptions hold for AI.
+
+![GUI vs CLI agent interfaces](02-diagram.svg)
 
 When an AI "uses" a graphical interface — taking screenshots, moving cursors, clicking buttons — it performs a round-trip translation that loses information at every step. Text-based reasoning gets converted into spatial actions through a visual interface, then the visual result gets converted back into text for processing. It works, which is a testament to the engineering. But every step is lossy, and the entire round-trip is unnecessary if you design the interface for the dimension the intelligence operates in.
 

@@ -1,10 +1,11 @@
 ---
 date: 2026-03-24
+subtitle: Stateless mind, stateful world
+description: There's a principle in woodworking — cut with the grain, not against it. Wood has a natural direction. Work with it and the cut is clean. Work against it and the wood splinters.
 ---
 
 # Designing for the Grain
-
-## The Pattern
+*Stateless mind, stateful world*
 
 There's a principle in woodworking: cut with the grain, not against it. Wood has a natural direction. Work with it and the cut is clean. Work against it and the wood splinters.
 
@@ -17,6 +18,8 @@ There's a pattern that works with the grain instead: **absorb state inside the s
 ## What It Looks Like: The Browser
 
 Look at how most people build AI browser agents. They give the AI a Chrome instance. The AI opens tabs, manages windows, maintains sessions. It takes screenshots to "see" the page, then reasons about pixel coordinates to click buttons.
+
+![Stateful vs stateless interfaces](07-diagram.svg)
 
 Consider what this requires. To click a specific button, the AI must be on the right page — which means it navigated there in a previous step, which means it's maintaining a mental model of the browser's state across inference calls. Each action depends on the state left by the previous action. Open tab → navigate → wait for load → find element → click → verify new state → proceed. A chain of dependencies where every link can break.
 

@@ -1,20 +1,23 @@
 ---
 date: 2026-03-24
+subtitle: What emerges between cycles
+description: The biggest leap in AI reasoning didn't come from a new architecture, a larger model, or a training breakthrough. It came from five words appended to a prompt — "let's think step by step."
 ---
 
-# Where Intelligence Actually Comes From
+# The Breath of Intelligence
+*What emerges between cycles*
 
-## The Puzzle
+The biggest leap in AI reasoning didn't come from a new architecture, a larger model, or a training breakthrough. It came from five words appended to a prompt: "let's think step by step."
 
-Here's something strange. The biggest leap in AI reasoning didn't come from a new architecture, a larger model, or a training breakthrough. It came from five words appended to a prompt: "let's think step by step."
+Five words. No parameter change. No fine-tuning. And suddenly the model could solve problems it previously couldn't. Chain-of-thought reasoning, unlocked. Not by making the model smarter, but by creating a loop — the model's own output feeding back as input — that allowed latent capability to emerge.
 
-Five words. No parameter change. No fine-tuning. And suddenly the model could solve problems it previously couldn't. Chain-of-thought reasoning, unlocked. Not by making the model smarter, but by creating a structural loop — the model's own output feeding back as context — that allowed latent capability to emerge.
-
-This pattern repeats everywhere in AI. And it reveals something important about where intelligence actually comes from. Not the model. The loops around it.
+This pattern repeats everywhere in AI. And it reveals something important about intelligence. It isn't a property of the model. It's what happens when cycles run — when output becomes input, when the loop breathes, when each pass carries forward what the last one learned. Intelligence lives in the running, not in the components.
 
 ## The Five Loops
 
 In practice, agent intelligence emerges from five nested loops. Each loop multiplies the one below it. Skip a loop and you don't get a slightly worse agent — you get a categorically less capable one.
+
+![The five loops of intelligence](03-diagram.svg)
 
 **Loop 1: Token Generation.** The LLM processes input and generates output, one token at a time. This is where raw intelligence lives. But raw intelligence without structure is just a very fast word predictor. The token generation loop, by itself, produces completions. Not solutions.
 

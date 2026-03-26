@@ -23,15 +23,22 @@
     }
   }
 
-  /* Above the fold line - after first section (only if not the only section) */
-  article>section:first-of-type:not(:last-of-type) {
+  /* Subtitle styling - italic line after h1 */
+  article>section:first-of-type h1+p:has(em:only-child) {
     padding-bottom: var(--l);
     border-bottom: 1px solid var(--border-subtle);
     margin-bottom: var(--l);
 
-    p {
-      text-align: left;
+    em {
+      font-style: italic;
+      font-weight: 400;
+      color: var(--text-primary);
+      font-size: 1.1rem;
     }
+  }
+
+  article>section:first-of-type:not(:last-of-type) p {
+    text-align: left;
   }
 
   section> :is(h3, h4) {

@@ -1,10 +1,11 @@
 ---
 date: 2026-03-24
+subtitle: Attention is finite
+description: The instinct when AI forgets is to help it remember more. Bigger context windows. Better retrieval. More sophisticated indexing. RAG pipelines. Vector databases. Embedding layers.
 ---
 
 # The Art of Forgetting
-
-## The Wrong Instinct
+*Attention is finite*
 
 The instinct when AI forgets is to help it remember more. Bigger context windows. Better retrieval. More sophisticated indexing. RAG pipelines. Vector databases. Embedding layers.
 

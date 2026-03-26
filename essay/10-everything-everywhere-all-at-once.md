@@ -1,10 +1,11 @@
 ---
 date: 2026-03-24
+subtitle: A world beyond physical boundary
+description: Your computing power lives in boxes. Your laptop has its processor, its storage, its installed capabilities. Your desktop has a different set. Your phone, another. Your home server with the GPU, another. Each is an island.
 ---
 
 # Everything, Everywhere, All at Once
-
-## The Constraint That Doesn't Need to Exist
+*A world beyond physical boundary*
 
 Your computing power lives in boxes. Your laptop has its processor, its storage, its installed capabilities. Your desktop has a different set. Your phone, another. Your home server with the GPU, another. Each is an island.
 
@@ -34,7 +35,9 @@ For AI, declarative capability resolution isn't just a convenience — it's the 
 
 ## The Parts Work as One
 
-When declarative resolution works across devices, something qualitative changes. The agent doesn't think about machines. It doesn't know that the image processing happened on your desktop's GPU while the text analysis happened locally on your laptop. It described what it needed. The system provided.
+When declarative resolution works across devices, something qualitative changes. The agent doesn't think about machines. It doesn't know that the image processing happened on your desktop's GPU while the text analysis happened locally on your laptop.
+
+![Mesh network of capabilities](10-diagram.svg) It described what it needed. The system provided.
 
 Each device controls what it shares — which capabilities to expose, which resources to make available. The agent on one device transparently uses capabilities and compute from another. A powerful open-source model running on your GPU server is accessible from your phone. Storage on your NAS is available to an agent running anywhere. The physical distribution of resources becomes invisible.
 
