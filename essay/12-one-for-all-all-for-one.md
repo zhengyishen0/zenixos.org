@@ -7,13 +7,11 @@ description: Each component described in this series is simple. Each follows the
 # One for All, All for One
 *The whole is alive*
 
-## The Parts
-
 Each principle described in this series is simple. Living software that evolves through use. Trust through costless reversibility. Search over structure. Stateless interfaces over stateful internals. Time as a tool. Text as full stack. Capability without boundary. Diverse minds on shared infrastructure.
 
 Individually, each solves a specific problem. But the system isn't designed to work individually.
 
-## How Capabilities Compound
+## Compounding with Parts
 
 Every capability in a well-designed system can use every other capability. Not just the agent — the capabilities themselves compose.
 

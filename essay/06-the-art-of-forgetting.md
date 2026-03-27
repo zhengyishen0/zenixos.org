@@ -7,8 +7,6 @@ description: The instinct when AI forgets is to help it remember more. Bigger co
 # The Art of Forgetting
 *Attention is finite*
 
-## The Wrong Instinct
-
 The instinct when AI forgets is to help it remember more. Bigger context windows. Better retrieval. More sophisticated indexing. RAG pipelines. Vector databases. Embedding layers.
 
 This instinct is backwards.

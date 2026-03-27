@@ -7,15 +7,13 @@ description: The AI industry is running a race on a single track.
 # Intelligence Isn't One Axis
 *The value is in divergence, not convergence*
 
-## Think Different
-
 The AI industry is running a race on a single track.
 
 Benchmarks. Pricing. Speed. Context window size. Every comparison focuses on which model is "better" — as if intelligence were a single axis and the only question is who's furthest along it.
 
 This misses the most valuable property of having multiple models in the world: they don't think the same way.
 
-## What Actually Differs
+## Think Different
 
 Models don't just differ in how much intelligence they have. They differ in how they attend.
 

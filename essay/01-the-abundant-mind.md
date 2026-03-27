@@ -13,7 +13,7 @@ We hired smart people, paid them well, and built entire ecosystems to make the m
 
 If you look carefully, you'll notice that anyone who's good at leading, teaching, or communicating has been doing something very specific their whole career. They frame problems clearly. They give precise instructions. They steer conversations through complications. They provide the right context at the right time. They've been engineering the environment for **anthropic intelligence** — directing human minds with words.
 
-Now we have **artificial intelligence**. And the people who were good at directing human minds with words turn out to be good at directing artificial minds with words. We call this prompt engineering, and treat it like a new skill. It isn't. It's the oldest management skill in the world, applied to a new kind of mind.
+Now we have **artificial intelligence**. And the people who were good at directing human minds with words turn out to be good at directing artificial minds with texts. We call this prompt engineering, and treat it like a new skill. It isn't. It's the oldest management skill in the world, applied to a new kind of mind.
 
 ## The Harder Problem
 

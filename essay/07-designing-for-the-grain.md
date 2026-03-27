@@ -7,7 +7,7 @@ description: There's a principle in woodworking — cut with the grain, not agai
 # Designing for the Grain
 *Stateless mind, stateful world*
 
-There's a principle in woodworking: cut with the grain, not against it. Wood has a natural direction. Work with it and the cut is clean. Work against it and the wood splinters.
+There's a principle in woodworking: **cut with the grain, not against it.** Wood has a natural direction. Work with it and the cut is clean. Work against it and the wood splinters.
 
 AI has a grain: statelessness. Every inference is a fresh start. No memory of the previous call. No awareness of what state was set up before. No persistent tracking of "where we are" in a process.
 

@@ -75,9 +75,9 @@ A model with tools and memory but no relationship to time is a simulator.
 
 Each loop compounds the capability of the one inside it:
 
-- Token generation × conversation = reasoning.
-- Reasoning × tools = agency.
-- Agency × persistent context = expertise.
-- Expertise × time = presence.
+- *Token generation × conversation = reasoning.*
+- *Reasoning × tools = agency.*
+- *Agency × persistent context = expertise.*
+- *Expertise × time = presence.*
 
 Five loops. Each one simple. Together, something that compounds into more than the sum of parts.
