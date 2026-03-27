@@ -7,6 +7,8 @@ description: The instinct when AI forgets is to help it remember more. Bigger co
 # The Art of Forgetting
 *Attention is finite*
 
+## The Wrong Instinct
+
 The instinct when AI forgets is to help it remember more. Bigger context windows. Better retrieval. More sophisticated indexing. RAG pipelines. Vector databases. Embedding layers.
 
 This instinct is backwards.
@@ -27,7 +29,7 @@ Just search.
 
 Accept noise and inefficiency in exchange for flexibility, adaptability, and zero schema friction. Don't decide in advance what's important — because you'll get it wrong, and the wrong decisions will be cemented into your index. Don't maintain an embedding layer that drifts from actual content. Just make the search good enough that the right information surfaces when you need it.
 
-There's a lesson here from how practical AI tools actually win. Simple search beats complex indexing. Not because simple search is a better algorithm — it's worse by every computer science metric. But it's simple enough that AI uses it correctly almost every time, while complex systems introduce enough failure modes that the net result is worse. Reliability at the system level matters more than sophistication at the component level.
+There's a lesson here from how practical AI tools actually win. The terminal beats the IDE. Simple search beats complex indexing. Not because simpler tools are better algorithms — they're worse by every computer science metric. But they're simple enough that AI uses them correctly almost every time, while complex systems introduce enough failure modes that the net result is worse. Reliability at the system level matters more than sophistication at the component level.
 
 ## The Cold-Start Problem
 
@@ -35,7 +37,7 @@ Search sounds simple until you face the reality.
 
 For a stateless intelligence — which has no persistent intuition about what's in its own history — every search starts cold. A human searching their email has fuzzy memory to guide them: "I remember discussing this in March, the subject mentioned budgets." An LLM has no such anchor. It doesn't know what it knows.
 
-And the fragmentation makes it worse. Different agent frameworks store conversation data differently. Session formats are incompatible. Search mechanisms vary. Hooks differ. Your conversation history — the most valuable artifact of your work with AI — is scattered across silos that don't talk to each other.
+And the fragmentation makes it worse. Different agent frameworks store conversation data differently. Session formats are incompatible. Search mechanisms vary. Your conversation history — the most valuable artifact of your work with AI — is scattered across silos that don't talk to each other.
 
 A good memory system solves both problems. It unifies the search space across frameworks, so history is findable regardless of where the conversation happened. And it provides the cold-start intelligence: hints about what exists in the searchable space, query refinement when initial results miss, iterative exploration the same way you refine a web search when the first page doesn't have what you need.
 

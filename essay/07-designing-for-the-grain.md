@@ -43,7 +43,7 @@ In every case, the same structure. Stateful internals, stateless interface. The 
 
 This isn't just about matching AI's nature. It's about how independent operations affect system reliability at scale.
 
-When each step in a workflow depends on the state left by the previous step, failure probability multiplies across the chain. A five-step stateful chain where each step succeeds 95% of the time gives you a 77% chance of completing the whole workflow. One break anywhere cascades forward — the state is corrupted and every subsequent step operates on wrong assumptions.
+When each step in a workflow depends on the state left by the previous step, failure probability compounds across the chain. A five-step stateful chain where each step succeeds 95% of the time gives you a 77% chance of completing the whole workflow. One break anywhere cascades forward — the state is corrupted and every subsequent step operates on wrong assumptions.
 
 A five-step stateless workflow where each step is independently retryable? The agent retries the one step that fails. The others aren't affected. Failures are isolated. Recovery is local.
 

@@ -15,8 +15,6 @@ If you look carefully, you'll notice that anyone who's good at leading, teaching
 
 Now we have **artificial intelligence**. And the people who were good at directing human minds with words turn out to be good at directing artificial minds with words. We call this prompt engineering, and treat it like a new skill. It isn't. It's the oldest management skill in the world, applied to a new kind of mind.
 
-But prompt engineering is local optimization. It makes a single interaction better. The harder problem is everything else.
-
 ## The Harder Problem
 
 How do you make an intelligence productive — not in a single conversation, but across tasks, across time, across the full complexity of real work?

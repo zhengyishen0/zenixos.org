@@ -7,6 +7,8 @@ description: The AI industry is running a race on a single track.
 # Intelligence Isn't One Axis
 *The value is in divergence, not convergence*
 
+## Think Different
+
 The AI industry is running a race on a single track.
 
 Benchmarks. Pricing. Speed. Context window size. Every comparison focuses on which model is "better" — as if intelligence were a single axis and the only question is who's furthest along it.
@@ -27,7 +29,7 @@ What makes an intelligence useful isn't just its capability. It's what it pays a
 
 This is the same reason a great team isn't five people with identical skills. It's people who see the same problem through different lenses. One notices the architectural risk. Another notices the user experience issue. A third notices the naming is wrong. Same problem, different eyes, better outcome.
 
-A mediocre model that misses obvious things has differences that don't matter much — they're just gaps. But as models become more capable, their uniqueness becomes more interesting — not less. A brilliant model that notices subtle things has differences that are profoundly valuable, because what it notices and what another brilliant model notices aren't the same things.
+A mediocre model that misses obvious things has differences that don't matter much. But as models become more capable, their uniqueness becomes more interesting — not less. A brilliant model that notices subtle things has differences that are profoundly valuable, because what it notices and what another brilliant model notices aren't the same things.
 
 The "better" race converges — models become more similar as they all improve on the same benchmarks. Uniqueness diverges — as capability grows, the distinct textures of each model's attention become more pronounced, more valuable, more irreplaceable.
 

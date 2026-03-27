@@ -11,7 +11,7 @@ Humans live in a rich, multi-sensory physical world. We see, touch, feel, hear. 
 
 AI has none of this. AI is a one-dimensional creature. It exists in the dimension of sequential text. Tokens in, tokens out. It can reason about the physical world through language — and it does this remarkably well — but it has no native feedback loop with reality. The physical world, to an AI, is a description. Never an experience.
 
-Unless we can make an LLM *feel* pain — not know about pain, but feel it, and be scared — the human world is merely a video game to it. Ironic, given how much we worry about AI understanding us.
+Unless we can make an LLM *feel* pain — not know about pain, but feel it, and be scared — the human world is merely a video game to it. Ironic, as that's how we think of playing with computer for decades — except we are now the game AI's playing.
 
 ## What About Multimodal?
 

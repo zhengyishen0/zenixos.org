@@ -7,13 +7,13 @@ description: Before LLMs, only one thing in the world had all four of these prop
 # Living Software
 *A system that develops through use*
 
-Before LLMs, only one thing in the world had all four of these properties simultaneously.
+Before LLMs, only one thing in the world had all four of these properties simultaneously:
 
 A **tool** that executes actions. A **manual** that teaches when and how to use it. **Accumulated experience** from actual use in the field. And the **ability to refine itself** based on what's learned.
 
-That thing was a human employee.
+That thing was a human being.
 
-A person with job training, a job description, on-the-job experience, and the ability to improve their own processes. The combination of these four properties is what makes an employee more valuable over time — not just functional, but developing.
+A person with job training, a job description, on-the-job experience, and the ability to improve their own processes. The combination of these four properties is what makes a person more valuable over time — not just functional, but developing.
 
 Now imagine software with the same four properties. A capability that comes with documentation teaching AI how to use it. That accumulates field notes from every use — edge cases, workarounds, patterns. And that can modify its own implementation based on what's been learned.
 
@@ -23,7 +23,7 @@ This is what we mean by living software. Not because it's alive in any biologica
 
 The biggest progress in agentic intelligence has never come from sophisticated technology. It has come from simplicity grounded in a profound understanding of how intelligence works.
 
-"Let's think step by step." Five words that unlocked chain-of-thought reasoning. Simple grep that beats codebase indexing. Markdown files that outperform complex configuration frameworks.
+"Let's think step by step." Five words that unlocked chain-of-thought reasoning. The terminal and bash that outperform sophisticated IDE integrations for AI coding. Plain text files that work better than complex configuration frameworks.
 
 The pattern: the solution that wins is never the most sophisticated. It's the one simple enough for AI to use reliably every time. Simplicity isn't the ceiling. It's the starting point that actually works. Complexity can be earned later, through experience — not pre-engineered in advance.
 
@@ -79,4 +79,4 @@ Core capabilities must be curated the way organs are evolved. Each must justify 
 
 A smart tool does clever things. A living tool gets better through use. The distinction matters because it changes what you optimize for. Smart tools optimize for capability at design time. Living tools optimize for learning rate over time.
 
-Software that evolves through use by AI, not just through human updates. That's the primitive the operating system is built on.
+Software that evolves through use by AI, not just through human updates. That's the primitive the operating system is built on. But living software that can do anything is also living software that can break anything. How do you trust it?

@@ -7,15 +7,17 @@ description: Each component described in this series is simple. Each follows the
 # One for All, All for One
 *The whole is alive*
 
-Each component described in this series is simple. Each follows the same conventions. Living software that evolves through use. Trust through costless reversibility. Search over structure. Stateless interfaces over stateful internals. Time as a tool. Text as full stack. Capability without boundary. Diverse minds on shared infrastructure.
+## The Parts
+
+Each principle described in this series is simple. Living software that evolves through use. Trust through costless reversibility. Search over structure. Stateless interfaces over stateful internals. Time as a tool. Text as full stack. Capability without boundary. Diverse minds on shared infrastructure.
 
 Individually, each solves a specific problem. But the system isn't designed to work individually.
 
-## How Capabilities Multiply
+## How Capabilities Compound
 
 Every capability in a well-designed system can use every other capability. Not just the agent — the capabilities themselves compose.
 
-When you add a traditional tool to an agent, you get addition. The agent can now do one more thing. When you add a capability to a system where capabilities compose, you get multiplication — because the new capability gains access to every existing capability as a building block, and every existing capability can now use the new one.
+When you add a traditional tool to an agent, you get addition. The agent can now do one more thing. When you add a capability to a system where capabilities compose, you get compounding — because the new capability gains access to every existing capability as a building block, and every existing capability can now use the new one. And the whole system gets better over time, because every interaction accumulates experience.
 
 A concrete example.
 
@@ -23,19 +25,17 @@ You want to stay on top of the information that matters to you — the people yo
 
 In a composable system: time-based monitoring watches your sources on a schedule. When something arrives, it triggers an agent session that reads, evaluates, and filters the content using web-fetching capabilities. The filtered results are organized into a morning brief using the text-as-full-stack substrate, rendered as a browsable page on your device. You interact with it — reading, clicking through, skipping. Memory captures your patterns. Tomorrow's brief is better.
 
-And it keeps stacking. You say: when something looks important, create a visual summary. Now the brief includes diagrams. You say: save anything about distributed systems to a research folder. Now the text substrate maintains a growing knowledge base with auto-inferred connections. You say: if three sources mention the same topic in one week, draft a blog post. Now the agent uses the knowledge base for research context, memory for your writing style, and time-based tools to publish when you approve.
+And it keeps stacking. You say: when something looks important, create a visual summary. Now the brief includes diagrams. You say: save anything about distributed systems to a research folder. Now the text substrate maintains a growing knowledge base with connections that emerge from your reading patterns. You say: if three sources mention the same topic in one week, draft a blog post. Now the agent uses the knowledge base for research context, memory for your writing style, and time-based tools to publish when you approve.
 
-No orchestration framework coordinates this. No workflow engine defines the sequence. Each capability composes with the others through convention. The value compounds daily because memory accumulates, the knowledge base deepens, monitoring persists, and capabilities evolve through use.
+No orchestration framework coordinates this. No workflow engine defines the sequence. Each capability composes with the others through convention. The value compounds daily because memory accumulates, the knowledge base deepens, monitoring persists, and capabilities evolve through use. Day 1 the brief is useful. Day 30 it's dramatically better. Day 365 it's something else entirely.
 
-This is multiplication. Not one capability doing one thing. The combinatorial space of how they interact — growing with every capability added.
+This is compounding. Not one capability doing one thing. The combinatorial space of how they interact — growing with every capability added, deepening with every day of use.
 
 ## The Holographic Property
 
 There's a deeper pattern. Each principle doesn't just apply to its own domain — it runs through the entire system.
 
-![Principles running through components](12-diagram.svg)
-
-Statelessness isn't just a browser design pattern. It runs through memory (stateless search queries), through agent sessions (stateless launches), through distributed resolution (stateless capability lookup). Every interaction in the system is self-contained.
+Statelessness isn't just a tool design pattern. It runs through memory (stateless search queries), through agent sessions (stateless launches), through distributed resolution (stateless capability lookup). Every interaction in the system is self-contained.
 
 Trust isn't just about version-controlled workspaces. It's in how capabilities are loaded (the agent trusts the documentation), how memory works (the agent trusts search results), how distributed resolution works (trust your devices). The system trusts its components the way a healthy organization trusts its people.
 

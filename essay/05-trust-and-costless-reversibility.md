@@ -17,7 +17,7 @@ If you give an agent enough permission to be useful — filesystem access, netwo
 
 You can tighten the sandbox. But every restriction costs capability. Restrict filesystem writes and it can't save its work. Restrict network access and it can't fetch documentation. Restrict code execution and it can't test what it builds.
 
-**Useful permissions and meaningful security are in direct tension.** The middle ground is an illusion — not because people haven't tried, but because the permission boundary of a task is unknowable in advance.
+**Useful permissions and meaningful security are in direct tension.** The middle ground is an illusion — not because people haven't tried, but because the permission boundary of a task is unknowable in advance. A coding task might need filesystem access, network calls, package installation, database queries, and API calls in ways no one predicted when writing the permission policy. The boundary of what a task needs is a context engineering problem, and context engineering problems can't be fully predetermined.
 
 ## A Different Principle
 
@@ -33,7 +33,7 @@ Version control is the new sandbox. Not locks that prevent action, but the abili
 
 ## The Psychology of Trust
 
-用人不疑，疑人不用.
+> 用人不疑，疑人不用.
 
 If you employ someone, trust them. If you distrust them, don't employ them.
 
